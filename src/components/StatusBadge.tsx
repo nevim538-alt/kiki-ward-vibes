@@ -12,11 +12,11 @@ const StatusBadge = () => {
     const openMinutes = 11 * 60;
 
     // Closing times (in minutes from midnight, can exceed 24h for next-day closing)
-    // Mon-Thu: 02:00 (26h), Fri-Sat: 03:00 (27h), Sun: 01:00 (25h)
+    // Mon-Thu: 02:00 (26h), Fri-Sat: 03:00 (27h), Sun: 00:00 (25h)
     let closeMinutes: number;
     if (day >= 1 && day <= 4) closeMinutes = 26 * 60; // Mon-Thu
     else if (day === 5 || day === 6) closeMinutes = 27 * 60; // Fri-Sat
-    else closeMinutes = 25 * 60; // Sun
+    else closeMinutes = 24 * 60; // Sun
 
     const adjustedCurrent = currentMinutes < openMinutes ? currentMinutes + 24 * 60 : currentMinutes;
     const open = adjustedCurrent >= openMinutes && adjustedCurrent < closeMinutes;
