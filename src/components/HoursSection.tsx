@@ -5,7 +5,7 @@ const transition = { type: "spring" as const, duration: 0.4, bounce: 0 };
 const hours = [
   { day: "Pondělí – Čtvrtek", time: "11:00 – 02:00" },
   { day: "Pátek – Sobota", time: "11:00 – 03:00" },
-  { day: "Neděle", time: "11:00 – 01:00" },
+  { day: "Neděle", time: "11:00 – 00:00" },
 ];
 
 const HoursSection = () => {

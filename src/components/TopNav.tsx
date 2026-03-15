@@ -75,7 +75,7 @@ const TopNav = () => {
                   key={item.href}
                   href={item.href}
                   onClick={() => setMenuOpen(false)}
-                  className="font-body text-sm font-semibold tracking-widest text-muted-foreground hover:text-foreground transition-colors"
+                  className="font-body text-sm font-semibold tracking-widest text-muted-foreground hover:text-foreground transition-colors bg-background/50 w-[fit-content]"
                 >
                   {item.label}
                 </a>

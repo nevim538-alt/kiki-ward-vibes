@@ -9,9 +9,9 @@ const ContactSection = () => {
       <div className="relative h-[50vh] border-b border-border overflow-hidden">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.5!2d14.4505!3d50.0865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b94a06be97b3d%3A0x2e6a0db7c3fba42a!2sRokycanova%20218%2C%20130%2000%20Praha%203-%C5%BDi%C5%BEkov!5e0!3m2!1scs!2scz!4v1"
-          className="w-full h-full border-0 grayscale invert opacity-80"
+          className="w-full h-full border-0 opacity-80"
           allowFullScreen
-          loading="lazy"
+          // loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           title="Kiki Ward Music Club mapa"
         />
@@ -36,7 +36,14 @@ const ContactSection = () => {
               NAJDI NÁS
             </h2>
             <div className="mt-8 space-y-4 font-body text-muted-foreground">
-              <p>Rokycanova 218 / Prokopova 218/1</p>
+              <a
+                href="https://maps.google.com/?q=Kiki+Ward+Music+Club"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors duration-200"
+              >
+                19, Rokycanova 218, Žižkov
+              </a>
               <p>Praha 3 – Žižkov, 130 00</p>
               <p>Česká republika</p>
             </div>
@@ -50,19 +57,19 @@ const ContactSection = () => {
               +420 776 640 143
             </a>
             <a
-              href="mailto:kikiward21@gmail.com"
+              href="mailto:kikiward16@gmail.com"
               className="block font-body text-foreground hover:text-primary transition-colors duration-200"
             >
-              kikiward21@gmail.com
+              kikiward16@gmail.com
             </a>
             <div className="flex gap-4 pt-4">
               <a
-                href="https://maps.google.com/?q=Rokycanova+218+Praha+3"
+                href="https://maps.google.com/?q=Kiki+Ward+Music+Club"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-primary text-primary-foreground font-body font-semibold text-sm tracking-wide hover:bg-primary/90 transition-colors duration-200"
               >
-                GOOGLE MAPS
+                MAPA
               </a>
               <a
                 href="tel:+420776640143"

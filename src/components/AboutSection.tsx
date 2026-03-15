@@ -16,9 +16,12 @@ const AboutSection = () => {
         </h2>
         <div className="mt-8 max-w-2xl">
           <p className="font-body text-lg leading-relaxed text-muted-foreground">
-            Neděláme „vyšperkované." Děláme to skutečné. Kiki Ward je útočiště pro bohémy,
-            noční tvory a hledače rytmu. Od prvního Plzně v 11:00 po poslední afrobeat
-            track ve 3:00 ráno — tady Žižkov dýchá.
+            Kiki Ward Music Bar je hudební bar na Žižkově, jedné z nejživějších částí pražského nočního života.
+Bar vznikl jako místo pro lidi, kteří mají rádi hudbu, uvolněnou atmosféru a setkávání bez přetvářky.
+
+Typický večer u nás znamená reggae rytmy, afro hudbu, DJs, přátelské lidi a drink v ruce. Potkávají se tu místní, studenti, cestovatelé i hudební fanoušci z celého světa.
+
+Kiki Ward není jen bar – je to komunita.
           </p>
           <p className="font-body text-lg leading-relaxed text-muted-foreground mt-6">
             Není to bar, který najdete. Je to bar, kam patříte.

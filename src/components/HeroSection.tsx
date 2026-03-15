@@ -39,8 +39,10 @@ const HeroSection = () => {
           transition={{ ...transition, delay: 0.4 }}
           className="flex flex-col sm:flex-row justify-between items-start sm:items-end mt-8 md:mt-12 gap-6"
         >
-          <p className="max-w-[28ch] font-body text-lg text-muted-foreground leading-relaxed">
-            Autentické undergroundové vibrace v srdci Žižkova. Studené pivo, těžký bass a nejteplejší komunita v Praze 3.
+          <p className="max-w-[34ch] font-body text-lg text-muted-foreground leading-relaxed">
+            Hudba, dobré drinky a přátelská atmosféra v jednom z nejautentičtějších barů pražského Žižkova.
+Kiki Ward je místo, kde se potkává reggae, afro rytmy, DJs, živá hudba a lidé z celého světa. <br />
+Přijď na drink, poslechni si hudbu a zažij noc, která má rytmus.
           </p>
           <StatusBadge />
         </motion.div>
@@ -52,7 +54,7 @@ const HeroSection = () => {
           className="flex gap-4 mt-8 pb-4"
         >
           <a
-            href="https://maps.google.com/?q=Rokycanova+218+Praha+3"
+            href="https://maps.google.com/?q=Kiki+Ward+Music+Club"
             target="_blank"
             rel="noopener noreferrer"
             className="px-6 py-3 bg-primary text-primary-foreground font-body font-semibold text-sm tracking-wide hover:bg-primary/90 transition-colors duration-200"
