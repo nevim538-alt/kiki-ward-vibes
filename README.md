@@ -11,11 +11,13 @@ This project demonstrates:
 - Responzive layout
 - profesional design
 
+
 ## 🧱 Tech Stack
 
 - React + Vite
 - TypeScript
 - TailWind
+
 
 ## 📐 Sections
 
@@ -26,7 +28,9 @@ This project demonstrates:
 - Opening hours
 - Contacts
 
+
 ## 👤 Author
 
 Built by Ondřej Wislocki 
+
 Email: ondra.w08@gmail.com
