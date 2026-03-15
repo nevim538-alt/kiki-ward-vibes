@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const transition = { type: "spring", duration: 0.4, bounce: 0 };
+const transition = { type: "spring" as const, duration: 0.4, bounce: 0 };
 
 const hours = [
   { day: "Pondělí – Čtvrtek", time: "11:00 – 02:00" },

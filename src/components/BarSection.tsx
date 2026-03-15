@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import barImg from "@/assets/bar.jpg";
 
-const transition = { type: "spring", duration: 0.4, bounce: 0 };
+const transition = { type: "spring" as const, duration: 0.4, bounce: 0 };
 
 const items = [
   {
