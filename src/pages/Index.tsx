@@ -5,11 +5,13 @@ import ArtSection from "@/components/ArtSection";
 import HoursSection from "@/components/HoursSection";
 import ContactSection from "@/components/ContactSection";
 import BottomNav from "@/components/BottomNav";
+import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <TopNav />
       <HeroSection />
       <AboutSection />
       <BarSection />
