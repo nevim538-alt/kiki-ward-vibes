@@ -37,7 +37,7 @@ const HeroSection = () => {
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ ...transition, delay: 0.4 }}
-          className="flex flex-col sm:flex-row justify-between items-start sm:items-end mt-8 md:mt-12 gap-6"
+          className="flex flex-col sm:flex-row justify-between items-start sm:items-end mt-4 md:mt-18 gap-6"
         >
           <p className="max-w-[34ch] font-body text-lg text-muted-foreground leading-relaxed">
             Hudba, dobré drinky a přátelská atmosféra v jednom z nejautentičtějších barů pražského Žižkova. Kiki Ward je místo, kde se potkává reggae, afro rytmy, DJs, živá hudba a lidé z celého světa. <br/>
@@ -60,12 +60,6 @@ const HeroSection = () => {
           >
             NAVIGACE
           </a>
-          {/* <a
-            href="#events"
-            className="px-6 py-3 border border-foreground/20 text-foreground font-body font-semibold text-sm tracking-wide hover:bg-foreground/5 transition-colors duration-200"
-          >
-            DNES VEČER
-          </a> */}
         </motion.div>
       </div>
     </section>
